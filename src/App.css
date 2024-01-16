@@ -1,0 +1,61 @@
+*{
+    margin: 2rem;
+    justify-content: center;
+}
+.TopBar{
+    text-align: center;
+    font-family:  Arial;
+    font-weight: 500;
+    font-size: x-large;
+    margin-top: 8rem;
+    justify-content: center;
+    color: rgb(36, 123, 49);
+}
+.add{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    height: 2rem;
+}
+input{
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: rgb(52, 163, 106);
+    width: 20rem;
+}
+.addtodo{
+    width: 10rem;
+}
+.todostatus{
+    display: flex; 
+    flex-direction: row;
+    gap: 800px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mytodos{
+    font-weight: bolder;
+}
+.statusfilter{
+    font-weight: bolder;
+}
+li{
+    margin: 0%;
+}
+.all{
+    margin: auto;
+}
+.cardTask{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    background-color: rgb(77, 153, 128);
+}
+p{
+    font-size: large;
+}
+
+
